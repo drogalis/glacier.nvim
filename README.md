@@ -1,1 +1,1 @@
-# glacialdrift.nvim
+# glacier.nvim
