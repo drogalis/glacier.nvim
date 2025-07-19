@@ -9,14 +9,14 @@ function M.setup()
 
 	local colors = require("glacialdrift.colors").config.colors
 	local bufferline_highlight_groups = {
-		BufferLineFill = { bg = "NONE", fg = colors.fg },
-		BufferLineBackground = { bg = "NONE", fg = colors.fg },
-		BufferLineBufferVisible = { bg = "NONE", fg = colors.fg },
-		BufferLineBufferSelected = { bg = "NONE", fg = colors.bufferline_selection, gui = "bold" },
-		BufferLineTab = { bg = "NONE", fg = colors.fg },
-		BufferLineTabSelected = { bg = "NONE", fg = colors.bg },
-		BufferLineTabClose = { bg = "NONE", fg = colors.fg },
-		BufferLineSeparator = { bg = "NONE", fg = colors.line_nr },
+		BufferLineFill = { bg = colors.bg, fg = colors.fg },
+		BufferLineBackground = { bg = colors.bg, fg = colors.fg },
+		BufferLineBufferVisible = { bg = colors.bg, fg = colors.fg },
+		BufferLineBufferSelected = { bg = colors.bg, fg = colors.bufferline_selection, gui = "bold" },
+		BufferLineTab = { bg = colors.bg, fg = colors.fg },
+		BufferLineTabSelected = { bg = colors.bg, fg = colors.bg },
+		BufferLineTabClose = { bg = colors.bg, fg = colors.fg },
+		BufferLineSeparator = { bg = colors.bg, fg = colors.line_nr },
 		BufferLineSeparatorSelected = { bg = colors.bg, fg = colors.bufferline_selection },
 		BufferLineIndicatorSelected = { bg = colors.bg, fg = colors.bufferline_selection },
 	}
